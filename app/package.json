@@ -24,7 +24,7 @@
   },
   "homepage": "https://github.com/ZeYt/m3u-player",
   "dependencies": {
-    "axios": "0.13.1",
+    "axios": "0.19.2",
     "bootstrap": "^3.3.5",
     "history": "^3.0.0",
     "moment": "^2.10.6",
