@@ -1,4 +1,5 @@
 import React, {Component} from 'react';
+import ReactPlayer from 'react-player';
 
 export default class Home extends Component {
   handleSubmit = (e) => {
@@ -9,6 +10,7 @@ export default class Home extends Component {
   render() {
     return (
       <section className="container home">
+        <ReactPlayer url='https://www.youtube.com/watch?v=ysz5S6PUM-U' playing />
         <form
           className="form-inline"
           role="form"
